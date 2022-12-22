@@ -1,0 +1,38 @@
+body {
+    background: rgb(224, 92, 15);
+    background: linear-gradient(90deg, #9db2e2ed 100%, rgba(1,213,196,1) 100%);
+}
+ 
+ .container {
+     max-width: 600px;
+ }
+ 
+ /* Changed text and color for better UI which wasnt clearly visible*/
+ .form-control::placeholder{
+     color: hwb(0 1% 98%);
+ }
+ 
+ 
+ input[type=text],
+ input[type=text]:focus {
+     color: #fffafa;
+     border: none;
+     background: hsla(0, 12%, 5%, 0.984);
+     max-width: 800px;
+ }
+ 
+ .todos li {
+     background: rgb(21, 22, 22);
+ }
+ 
+ .delete {
+     cursor: pointer;
+ }
+ 
+ .filtered {
+     display: none !important;
+ }
+ 
+ .checkbox .selected {
+     font-weight: bold;
+ }

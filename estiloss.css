@@ -1,0 +1,77 @@
+body  {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background: url('img/listar2.webp');
+	background-size: 100%;
+    background-attachment: fixed;
+    }
+*	{
+	box-sizing: border-box;
+}
+ .contenedor{
+    width: 100%;
+    padding: 25px;
+}
+.formulario{
+	background: #06aef0;
+	margin-top: 130px;
+	padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #000000;
+    font-size: 35px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 30px;
+    width: 87%;
+    padding: 15px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #e1c3c3;
+}
+
+.icon{
+	min-width: 40px;
+	text-align: center;
+	color: hwb(240 0% 95%);
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: #c9ef0b;
+    font-size: 20px;
+    background:  hsl(74, 75%, 46%);
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: hsl(245, 93%, 43%);
+}
+p{
+    text-align:center;
+}
+
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:750px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 20px;
+        border-radius: 2%;
+    }
+}
